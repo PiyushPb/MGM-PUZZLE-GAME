@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	min-height: 100vh;
+	width: 100%;
+	background: #e5f3fc;
+}
+
+
+#container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 840px;
+	margin: 10px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+
+	-webkit-box-shadow: 4px 4px 62px -22px rgba(64,153,255,1);
+	-moz-box-shadow: 4px 4px 62px -22px rgba(64,153,255,1);
+	box-shadow: 4px 4px 62px -22px rgba(64,153,255,1);
+}
+
+.box_container{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+#pieceContainer{
+	height: 408px;
+	width: 408px;
+	border: 1px solid #9da9ff;
+	border-radius: 5px;
+	position: relative;
+}
+
+#puzzleContainer{
+	height: 408px;
+	width: 408px;
+	background: url('../assets/crebscycles.png');
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+#buttons{
+	list-style: none;
+}
+
+
+
+#buttons button{
+	width: 100px;
+	font-size: 16px;
+	border-radius: 5px;
+	border:  none;
+	padding: 10px 20px;
+	background: #556de2;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#btnReset{
+	display: none;
+}
+
+.reset{
+	background: red!important;
+}
+
+
+.puzzle_content_container1{
+	position: relative;
+    top: 85px;
+    left: 56px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+	box-sizing: border-box;
+}
+
+.puzzle_content_container2{
+	position: relative;
+    top: 56px;
+    left: 246px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container3{
+	position: relative;
+    top: 97px;
+    left: 23px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container4{
+    position: relative;
+    top: 68px;
+    left: 286px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container5{
+    position: relative;
+    top: 110px;
+    left: 22px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container6{
+    position: relative;
+    top: 81px;
+    left: 286px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container7{
+	position: relative;
+    top: 123px;
+    left: 56px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
+
+.puzzle_content_container8{
+    position: relative;
+    top: 94px;
+    left: 247px;
+    height: 29px;
+    width: 102px;
+    background-color: #9da9ff;
+}
